@@ -1,0 +1,44 @@
+/* --- All elements --- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+::selection {
+  background: $color-primary;
+  color: $color-white;
+}
+
+/* --- Body --- */
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  cursor: default;
+}
+body {
+  background: $color-white;
+  color: $color-black;
+  font-family: $font-sans;
+  font-size: $base-fs;
+}
+
+/* --- Links --- */
+a  {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* --- Container --- */
+.site-container {
+  max-width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* --- Footer --- */
+.footer {
+  padding: 15px 0;
+  text-align: center;
+}

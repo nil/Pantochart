@@ -1,0 +1,32 @@
+# Site settings
+title: Pantochart
+author:
+  name: Nil Vila
+  twitter: nilvila
+  github: nil
+
+issues: http://github.com/nil/pantochart/issues
+
+markdown: kramdown
+sass:
+  style: :compressed
+baseurl: "/pantochart"
+
+collections:
+  lists:
+    output: true
+    permalink: /:path/
+
+colors:
+  - white
+  - gray
+  - black
+  - brown
+  - red
+  - orange
+  - yellow
+  - green
+  - teal
+  - blue
+  - purple
+  - fuchsia

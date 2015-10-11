@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{% for colors in site.lists %}
+<div class="list formula-coated">
+  {% for list in colors.list %}
+    <div class="list-color" style="background: {{ list.hex }}">
+      <h4>{{ list.color }} {{colors.letter }}</h4>
+      <code>{{ list.hex }}</code>
+    </div>
+  {% endfor %}
+</div>
+{% endfor %}

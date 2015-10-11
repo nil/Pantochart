@@ -1,0 +1,22 @@
+.header {
+  position: relative;
+  &-main {
+    position: relative;
+    background: $color-white;
+    z-index: 2;
+    .site-container {
+      display: flex;
+      align-items: center;
+      height: 70px;
+    }
+  }
+  &-brand {
+    flex: 1;
+    a {
+      color: $color-primary;
+      font-family: $font-serif;
+      font-weight: 700;
+      font-size: 2em;
+    }
+  }
+}
